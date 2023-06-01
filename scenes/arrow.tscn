@@ -1,0 +1,43 @@
+[gd_scene load_steps=5 format=3 uid="uid://r660w3h8g7ls"]
+
+[ext_resource type="Texture2D" uid="uid://b210tmyf10m6o" path="res://assets/throwables/arrow.png" id="1_78j34"]
+[ext_resource type="Script" path="res://src/arrow.gd" id="1_fy2oh"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oa8ee"]
+radius = 9.0
+height = 64.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oxsa2"]
+radius = 12.0
+height = 118.0
+
+[node name="Area2D" type="CharacterBody2D"]
+collision_layer = 5
+collision_mask = 13
+script = ExtResource("1_fy2oh")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = 0.785397
+texture = ExtResource("1_78j34")
+
+[node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
+rotation = 1.57079
+shape = SubResource("CapsuleShape2D_oa8ee")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 5
+collision_mask = 5
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(26, 0)
+rotation = 1.57079
+shape = SubResource("CapsuleShape2D_oxsa2")
+
+[node name="VisibleOnScreenEnabler2D" type="VisibleOnScreenEnabler2D" parent="."]
+position = Vector2(1.5, 0)
+scale = Vector2(3.05, 1)
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://1thfv7uaf7hu"]
+
+[ext_resource type="Script" path="res://src/spikes.gd" id="1_rkrdb"]
+[ext_resource type="Texture2D" uid="uid://wglpcas3od3g" path="res://assets/spikes.png" id="2_fw55q"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_funik"]
+size = Vector2(56, 35)
+
+[node name="Area2D" type="Area2D"]
+collision_layer = 8
+collision_mask = 5
+script = ExtResource("1_rkrdb")
+
+[node name="Spikes" type="Sprite2D" parent="."]
+position = Vector2(0, -70)
+texture = ExtResource("2_fw55q")
+centered = false
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(36, -17.5)
+shape = SubResource("RectangleShape2D_funik")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+visible = false
+position = Vector2(0, -70)
+polygon = PackedVector2Array(61, 31.7, 61, 33.4, 70, 55.7, 70, 70, 0, 70, 0, 57.9, 9, 33.6, 9, 31.8, 11.2, 30.7, 17, 35, 17, 38.6, 23.3, 54.7, 30.6, 33, 32.4, 33, 35.9, 30.7, 38, 31.8, 38, 33.6, 46.5, 55.2, 53.6, 34, 55.2, 34, 58.5, 30.6)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

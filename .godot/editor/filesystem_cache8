@@ -1,0 +1,112 @@
+2a60927148abd1d33b818b535e306557
+::res://::1685384146
+icon.svg::CompressedTexture2D::2885299772998148172::1684159334::1684159344::1::::<><>::
+::res://assets/::1685385417
+arrow.png::CompressedTexture2D::3448989429287611842::1685385408::1685385417::1::::<><>::
+buttonLong_blue.png::CompressedTexture2D::3888346972265938143::1684245949::1684245949::1::::<><>::
+coinBronze.png::CompressedTexture2D::2595910245518772498::1684333864::1684333864::1::::<><>::
+coinGold.png::CompressedTexture2D::7436298590489419922::1684324795::1684324796::1::::<><>::
+coinSilver.png::CompressedTexture2D::8541311859899963629::1684333864::1684333864::1::::<><>::
+fireball.png::CompressedTexture2D::3129454549782585017::1684869168::1684869176::1::::<><>::
+hudCoin.png::CompressedTexture2D::1906606906561751747::1684782892::1684782893::1::::<><>::
+hudHeart_empty.png::CompressedTexture2D::6994506142054902931::1684848279::1684848279::1::::<><>::
+hudHeart_full.png::CompressedTexture2D::234708568724300244::1684848279::1684848279::1::::<><>::
+hudHeart_half.png::CompressedTexture2D::5595370904370190407::1684848279::1684848279::1::::<><>::
+Theme.tres::Theme::3941895866670532160::1685384221::0::1::::<><>::
+trail.png::CompressedTexture2D::1733992811835262633::1684840877::1684840877::1::::<><>::
+tutorial 1.png::CompressedTexture2D::7194022740013711073::1684936823::1684936855::1::::<><>::
+tutorial 2.png::CompressedTexture2D::504006906051651709::1684929720::1684929729::1::::<><>::
+tutorial 3.png::CompressedTexture2D::4948825972063950249::1684936577::1684936645::1::::<><>::
+tutorial 4.png::CompressedTexture2D::3700552586184569553::1684937578::1684937592::1::::<><>::
+weapons.png::CompressedTexture2D::1122059805534672298::1685371007::1685371071::1::::<><>::
+::res://assets/backgrounds/::1685298623
+blue_grass.png::CompressedTexture2D::3188503866564218152::1684345846::1684345846::1::::<><>::
+colored_grass.png::CompressedTexture2D::8749236422470139030::1684346525::1684346525::1::::<><>::
+::res://assets/buttons/::1685383861
+1.png::CompressedTexture2D::3012255919017391242::1685383770::1685383860::1::::<><>::
+1d.png::CompressedTexture2D::8892233107520307566::1685383826::1685383860::1::::<><>::
+2.png::CompressedTexture2D::1115470566726408880::1685383788::1685383860::1::::<><>::
+2d.png::CompressedTexture2D::8479103099888579129::1685383832::1685383860::1::::<><>::
+3.png::CompressedTexture2D::1755509350327557691::1685383800::1685383861::1::::<><>::
+3d.png::CompressedTexture2D::7270417270190218614::1685383838::1685383861::1::::<><>::
+4.png::CompressedTexture2D::7490304551191694584::1685383811::1685383861::1::::<><>::
+4d.png::CompressedTexture2D::7863397425089987806::1685383844::1685383861::1::::<><>::
+5.png::CompressedTexture2D::2829548482905553183::1685383818::1685383861::1::::<><>::
+5d.png::CompressedTexture2D::212063675470073518::1685383851::1685383861::1::::<><>::
+::res://assets/enemeis/::1684262282
+::res://assets/enemeis/zombie/::1684846319
+arms.png::CompressedTexture2D::1580217620987832798::1684846301::1684846319::1::::<><>::
+bodeis.png::CompressedTexture2D::6709174656687697479::1684846240::1684846319::1::::<><>::
+hands.png::CompressedTexture2D::7257784245724123005::1684846294::1684846319::1::::<><>::
+heads.png::CompressedTexture2D::5852706360891897999::1684846232::1684846319::1::::<><>::
+legs.png::CompressedTexture2D::6167328384954830740::1684846250::1684846319::1::::<><>::
+main arms.png::CompressedTexture2D::2461557187756959928::1684846225::1684846319::1::::<><>::
+main hands.png::CompressedTexture2D::6940183065413452464::1684846209::1684846319::1::::<><>::
+::res://assets/player/::1685366911
+arms.png::CompressedTexture2D::5296470078806537055::1684833610::1685366561::1::::<><>::
+bodeis.png::CompressedTexture2D::2159436802377547809::1684833643::1685366560::1::::<><>::
+hand.png::CompressedTexture2D::6361465733419248050::1685366891::1685366911::1::::<><>::
+hands.png::CompressedTexture2D::1254444037088891981::1684833625::1685366561::1::::<><>::
+heads.png::CompressedTexture2D::8425326270534238267::1684834030::1685366561::1::::<><>::
+legs.png::CompressedTexture2D::4844496999338751782::1684833634::1685366561::1::::<><>::
+main arms.png::CompressedTexture2D::7525890805941690905::1684833668::1685366561::1::::<><>::
+main hands.png::CompressedTexture2D::5460879642539504821::1684833681::1685366561::1::::<><>::
+player tilesheet.png::CompressedTexture2D::8835721625004925980::1685359485::1685359486::1::::<><>::
+::res://assets/throwables/::1685388253
+arrow.png::CompressedTexture2D::4336745806047311332::1685388234::1685388257::1::::<><>::
+::res://assets/tilesets/::1685384222
+Base.png::CompressedTexture2D::8122715373886898783::1684324138::1684324143::1::::<><>::
+base.tres::TileSet::5595545010725977123::1685384222::0::1::::<><>::uid://dnyx62nqxllud<>uid://deney2iucyk5r
+bg elements.png::CompressedTexture2D::7467141494860219413::1684831898::1684831906::1::::<><>::
+grass.tres::TileSet::-1::1684322489::0::1::::<><>::
+items_spritesheet.png::CompressedTexture2D::535159680871557714::1684324629::1684324630::1::::<><>::
+ladder.tres::TileSet::8017671282339659482::1685384221::0::1::::<><>::uid://dnyx62nqxllud
+ladder_terrain.png::CompressedTexture2D::7836309278708718234::1684324516::1684324543::1::::<><>::
+map.png::CompressedTexture2D::270060072476202239::1684780674::1685296991::1::::<><>::
+mapPack_tilesheet.png::CompressedTexture2D::1860746434946891497::1685381730::1685381765::1::::<><>::
+sheet.png::CompressedTexture2D::3233140476225445409::1684319358::1684319380::1::::<><>::
+terrain tilemap.png::CompressedTexture2D::4930768439004752819::1684350302::1684350327::1::::<><>::
+terrain.png::CompressedTexture2D::3959710966117678923::1684227640::1684227669::1::::<><>::
+terrain.tres::TileSet::3961474069510645625::1685384222::0::1::::<><>::uid://d3235r67yn8j
+::res://assets/weapons/::1684753652
+swordBronze.png::CompressedTexture2D::5503369614047415634::1684504410::1684674395::1::::<><>::
+swordGold.png::CompressedTexture2D::6074365016201552660::1684504410::1684674395::1::::<><>::
+swordSilver.png::CompressedTexture2D::1854431633184726446::1684609762::1684674395::1::::<><>::
+::res://scenes/::1685387892
+coin.tscn::PackedScene::1397355236602151160::1685387892::0::1::::<><>::res://src/coin.gd<>uid://bc8qi6om0jygo
+health_component.tscn::PackedScene::7791510499751887485::1684847784::0::1::::<><>::res://src/health_component.gd
+hit_particles.tscn::PackedScene::9131713400698826239::1685387891::0::1::::<><>::uid://bkt6wob26l474
+ladder.tscn::PackedScene::2835716665051961594::1684676213::0::1::::<><>::res://src/ladderr.gd<>uid://dmh240chev2mo
+level selector.tscn::PackedScene::8491805934267704418::1685387892::0::1::::<><>::res://src/level selector.gd<>uid://bpeyl7544sj2i
+level_template.tscn::PackedScene::2520041695973634937::1685387891::0::1::::<><>::uid://dm0xoil5bm8hu<>uid://blosgs6h1q7g3<>uid://bwo75tobqpar6<>uid://t55ibq7v74ye<>uid://1thfv7uaf7hu<>uid://cc81p0gdctm55
+one way collision platform.tscn::PackedScene::8620463265206269924::1684689038::0::1::::<><>::uid://djv74sqcx8ttq
+player.tscn::PackedScene::4982950271759061730::1685387892::0::1::::<><>::res://src/player.gd<>uid://p8sfqgnf3sxe<>uid://cwvsn8mdtpu71<>uid://dx5dbrffgsc3m<>uid://yx7uxfq8i1bp<>uid://djajbl0sfahl2<>res://src/weapon.gd<>uid://d3dp8rkbiyk1d
+player_data.tscn::PackedScene::1718033722776893754::1684261910::0::1::::<><>::res://src/player_data.gd
+spikes.tscn::PackedScene::1864568213167904042::1684689038::0::1::::<><>::res://src/spikes.gd<>uid://wglpcas3od3g
+ui.tscn::PackedScene::8054559549080042230::1685387891::0::1::::<><>::uid://bwfqpjbyycw2c<>res://src/ui.gd<>res://src/HealthContainer.gd<>uid://dlxu652g153u<>uid://2ftsi82oxj8f<>uid://qlnfoem64a4l
+water.tscn::PackedScene::434013082392546023::1684847946::0::1::::<><>::res://src/water.gd<>uid://bwo75tobqpar6
+zombie.tscn::PackedScene::3662907473933339302::1685387891::0::1::::<><>::res://src/zombie.gd<>uid://wrp7ocjhwbtu<>uid://dbnyv77lsu60p<>uid://ct4q86bp8waye<>res://src/health_component.gd<>uid://c2t8ekc70db56<>uid://bwfqpjbyycw2c<>uid://bc8qi6om0jygo<>uid://bbcnqtiwfxj7m<>uid://ckn4xtw78rs4y<>uid://c5442ic8m2igm<>uid://cpndho1yk40it<>uid://yx7uxfq8i1bp<>res://src/weapon.gd<>uid://d3dp8rkbiyk1d
+::res://scenes/levels/::1685387891
+level 1.tscn::PackedScene::6127439870947654956::1685387891::0::1::::<><>::uid://dwwgv7kuyerqs<>uid://dm0xoil5bm8hu<>uid://daq3reaku3v2x<>uid://hge6jv4hxqqv<>uid://cc81p0gdctm55<>uid://bgnv3sc0dqsr7<>uid://clyr2q8mkt8t8<>uid://bwo75tobqpar6<>uid://t55ibq7v74ye<>uid://ccrio8ql36n4d<>uid://1thfv7uaf7hu<>uid://bsyttb4oc6034<>uid://du221gyhuhxbo<>uid://ggieqwmni1k2<>uid://bsglsy5cs3n6u
+level 2.tscn::PackedScene::2982258083611361332::1685387891::0::1::::<><>::uid://dm0xoil5bm8hu<>uid://dwwgv7kuyerqs<>uid://bwo75tobqpar6<>uid://bgnv3sc0dqsr7<>uid://ggieqwmni1k2<>uid://t55ibq7v74ye<>uid://1thfv7uaf7hu<>uid://cc81p0gdctm55<>uid://bsglsy5cs3n6u
+::res://scenes/maps/::1685387892
+map 1.tscn::PackedScene::6409325874957873552::1685387892::0::1::::<><>::uid://1rmhsssr4u78<>uid://bi6fodu3up1g5<>uid://dyxp1r2og1r1g<>uid://p5lvww60j5s3<>uid://ds2lubfuh3msv<>uid://0am8n13r8nsl<>uid://dbt3yfao6hr3s<>uid://deymhsggw4muy<>uid://dkbdah1xsooqw<>uid://bgkwiremwto8n<>uid://daywmmj2u3nu
+map 2.tscn::PackedScene::5613869152645051766::1685387892::0::1::::<><>::uid://1rmhsssr4u78<>uid://bi6fodu3up1g5<>uid://dyxp1r2og1r1g<>uid://p5lvww60j5s3<>uid://ds2lubfuh3msv<>uid://0am8n13r8nsl<>uid://dbt3yfao6hr3s<>uid://deymhsggw4muy<>uid://dkbdah1xsooqw<>uid://bgkwiremwto8n<>uid://daywmmj2u3nu
+::res://src/::1685387843
+attack.gd::GDScript::-1::1684239622::0::1::::Attack<>Node<>::
+coin.gd::GDScript::-1::1684921990::0::1::::<>Area2D<>::
+enemy.gd::GDScript::-1::1684866095::0::1::::Enemy<>Entity<>::
+Entity.gd::GDScript::-1::1685267147::0::1::::Entity<>CharacterBody2D<>::
+HealthContainer.gd::GDScript::-1::1684852069::0::1::::<>HBoxContainer<>::
+health_component.gd::GDScript::-1::1685301327::0::1::::HealthComponent<>Node2D<>::
+ladderr.gd::GDScript::-1::1684743178::0::1::::<>Area2D<>::
+level selector.gd::GDScript::-1::1685387843::0::1::::<>Node2D<>::
+player.gd::GDScript::-1::1685374171::0::1::::Player<>Entity<>::
+PlayerSprite.gd::GDScript::-1::1684333734::0::1::::<>Sprite2D<>::
+player_data.gd::GDScript::-1::1685299446::0::1::::<>Node<>::
+spikes.gd::GDScript::-1::1684851799::0::1::::<>Area2D<>::
+throwables.gd::GDScript::-1::1685300825::0::1::::Throwable<>Node<>::
+ui.gd::GDScript::-1::1684848534::0::1::::<>Control<>::
+water.gd::GDScript::-1::1685301367::0::1::::<>Area2D<>::
+weapon.gd::GDScript::-1::1685267443::0::1::::Weapon<>Node<>::
+zombie.gd::GDScript::-1::1685267016::0::1::::<>Enemy<>::

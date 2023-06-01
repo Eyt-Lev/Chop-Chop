@@ -1,0 +1,48 @@
+[gd_scene load_steps=3 format=3 uid="uid://ds8q2kl3bg6g1"]
+
+[ext_resource type="Script" path="res://src/level selector.gd" id="1_kwebr"]
+[ext_resource type="Texture2D" uid="uid://bpeyl7544sj2i" path="res://assets/arrow.png" id="13_1svne"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_kwebr")
+metadata/_edit_vertical_guides_ = []
+
+[node name="UI" type="Control" parent="."]
+z_index = 1
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 640.0
+
+[node name="Right" type="TextureButton" parent="UI"]
+layout_mode = 1
+anchors_preset = 6
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_left = -114.0
+offset_top = -73.0
+offset_bottom = 32.0
+grow_horizontal = 0
+grow_vertical = 2
+texture_normal = ExtResource("13_1svne")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="Left" type="TextureButton" parent="UI"]
+layout_mode = 1
+anchors_preset = 4
+anchor_top = 0.5
+anchor_bottom = 0.5
+offset_top = -73.0
+offset_right = 114.0
+offset_bottom = 32.0
+grow_vertical = 2
+texture_normal = ExtResource("13_1svne")
+ignore_texture_size = true
+stretch_mode = 0
+flip_h = true
+
+[connection signal="pressed" from="UI/Right" to="." method="change_map" binds= [1]]
+[connection signal="pressed" from="UI/Left" to="." method="change_map" binds= [-1]]

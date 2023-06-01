@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://d3dp8rkbiyk1d"]
+
+[ext_resource type="Texture2D" uid="uid://bkt6wob26l474" path="res://assets/fireball.png" id="1_bolrq"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_ah1jb"]
+particle_flag_disable_z = true
+spread = 180.0
+gravity = Vector3(0, 98, 0)
+initial_velocity_min = 50.0
+initial_velocity_max = 200.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+tangential_accel_min = 10.07
+tangential_accel_max = 60.46
+scale_min = 0.1
+scale_max = 0.4
+
+[node name="HitParticles" type="GPUParticles2D"]
+position = Vector2(-0.16325, 0.14921)
+emitting = false
+amount = 200
+process_material = SubResource("ParticleProcessMaterial_ah1jb")
+texture = ExtResource("1_bolrq")
+lifetime = 0.3
+one_shot = true
+explosiveness = 0.08

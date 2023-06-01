@@ -1,0 +1,97 @@
+[gd_scene load_steps=7 format=3 uid="uid://dm0xoil5bm8hu"]
+
+[ext_resource type="Theme" uid="uid://bwfqpjbyycw2c" path="res://assets/Theme.tres" id="1_rqxgg"]
+[ext_resource type="Script" path="res://src/ui.gd" id="2_n0h6e"]
+[ext_resource type="Script" path="res://src/HealthContainer.gd" id="3_8oart"]
+[ext_resource type="Texture2D" uid="uid://dlxu652g153u" path="res://assets/hudHeart_full.png" id="3_yufsa"]
+[ext_resource type="Texture2D" uid="uid://2ftsi82oxj8f" path="res://assets/hudCoin.png" id="4_2twqk"]
+[ext_resource type="Texture2D" uid="uid://b210tmyf10m6o" path="res://assets/throwables/arrow.png" id="6_dtdrn"]
+
+[node name="UI" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_rqxgg")
+script = ExtResource("2_n0h6e")
+
+[node name="HealthContainer" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.251
+anchor_bottom = 0.076
+offset_right = 59.848
+offset_bottom = 30.752
+script = ExtResource("3_8oart")
+
+[node name="1" type="TextureRect" parent="HealthContainer"]
+layout_mode = 2
+texture = ExtResource("3_yufsa")
+expand_mode = 3
+
+[node name="2" type="TextureRect" parent="HealthContainer"]
+layout_mode = 2
+texture = ExtResource("3_yufsa")
+expand_mode = 2
+
+[node name="3" type="TextureRect" parent="HealthContainer"]
+layout_mode = 2
+texture = ExtResource("3_yufsa")
+expand_mode = 2
+
+[node name="Info Panel" type="Panel" parent="."]
+layout_mode = 0
+offset_top = 80.0
+offset_right = 248.0
+offset_bottom = 209.0
+
+[node name="Info Container" type="VSplitContainer" parent="Info Panel"]
+layout_mode = 0
+offset_right = 228.0
+offset_bottom = 129.0
+
+[node name="Top Info container" type="HSplitContainer" parent="Info Panel/Info Container"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Coins Info Container" type="HBoxContainer" parent="Info Panel/Info Container/Top Info container"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Coin pic" type="TextureRect" parent="Info Panel/Info Container/Top Info container/Coins Info Container"]
+layout_mode = 2
+texture = ExtResource("4_2twqk")
+expand_mode = 2
+
+[node name="Conis label" type="Label" parent="Info Panel/Info Container/Top Info container/Coins Info Container"]
+layout_mode = 2
+text = "0"
+
+[node name="Throwables Info Container" type="HBoxContainer" parent="Info Panel/Info Container/Top Info container"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="Throwable pic" type="TextureRect" parent="Info Panel/Info Container/Top Info container/Throwables Info Container"]
+layout_mode = 2
+texture = ExtResource("6_dtdrn")
+stretch_mode = 2
+
+[node name="Throwables label" type="Label" parent="Info Panel/Info Container/Top Info container/Throwables Info Container"]
+layout_mode = 2
+text = "0"
+
+[node name="HSplitContainer2" type="HSplitContainer" parent="Info Panel/Info Container"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Label" type="Label" parent="Info Panel/Info Container/HSplitContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "C"
+
+[node name="Label2" type="Label" parent="Info Panel/Info Container/HSplitContainer2"]
+layout_mode = 2
+size_flags_horizontal = 3
+text = "D"

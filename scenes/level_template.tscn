@@ -1,0 +1,55 @@
+[gd_scene load_steps=8 format=3 uid="uid://bb5yyov5hj074"]
+
+[ext_resource type="PackedScene" uid="uid://dm0xoil5bm8hu" path="res://scenes/ui.tscn" id="1_vp8hb"]
+[ext_resource type="Texture2D" uid="uid://blosgs6h1q7g3" path="res://assets/backgrounds/blue_grass.png" id="2_w6prr"]
+[ext_resource type="TileSet" uid="uid://bwo75tobqpar6" path="res://assets/tilesets/terrain.tres" id="3_avmay"]
+[ext_resource type="PackedScene" uid="uid://t55ibq7v74ye" path="res://scenes/coin.tscn" id="4_omkjm"]
+[ext_resource type="PackedScene" uid="uid://1thfv7uaf7hu" path="res://scenes/spikes.tscn" id="5_1x5a7"]
+[ext_resource type="PackedScene" uid="uid://cc81p0gdctm55" path="res://scenes/player.tscn" id="6_8myjx"]
+
+[sub_resource type="AnimationNodeStateMachinePlayback" id="AnimationNodeStateMachinePlayback_dq3vb"]
+
+[node name="Level template" type="Node2D"]
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 100
+
+[node name="UI" parent="UI" instance=ExtResource("1_vp8hb")]
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -100
+
+[node name="TextureRect" type="TextureRect" parent="Background"]
+offset_top = -350.0
+offset_right = 1190.0
+offset_bottom = 674.0
+texture = ExtResource("2_w6prr")
+
+[node name="Map" type="Node" parent="."]
+
+[node name="Water" type="Node" parent="Map"]
+
+[node name="TileMap" type="TileMap" parent="Map"]
+tile_set = ExtResource("3_avmay")
+format = 2
+
+[node name="Coins" type="Node" parent="Map"]
+
+[node name="Coin" parent="Map/Coins" instance=ExtResource("4_omkjm")]
+position = Vector2(280, 560)
+
+[node name="Spikes" type="Node" parent="Map"]
+
+[node name="Area2D" parent="Map/Spikes" instance=ExtResource("5_1x5a7")]
+position = Vector2(490, 560)
+
+[node name="Player" parent="." instance=ExtResource("6_8myjx")]
+position = Vector2(70, 490)
+
+[node name="Body" parent="Player/Sprites" index="0"]
+flip_h = true
+
+[node name="AnimationTree" parent="Player" index="5"]
+parameters/playback = SubResource("AnimationNodeStateMachinePlayback_dq3vb")
+
+[editable path="Player"]
